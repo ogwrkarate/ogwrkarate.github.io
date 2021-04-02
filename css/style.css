@@ -1442,11 +1442,11 @@ section {
   color: #484848;
 }
 
-.contact .info .email, .contact .info .phone {
+.contact .info .email, .contact .info .phone, .contact .info .facebook {
   margin-top: 40px;
 }
 
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i, .contact .info .facebook:hover i {
   background: #d8a200;
   color: #fff;
   transition: 0.4s;
