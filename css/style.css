@@ -350,7 +350,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-logo {
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #hero h1 {
@@ -422,7 +423,12 @@ section {
   padding-bottom: 40px;
 }
 
-.section-title h2 {
+.section-footnote {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.section-title h2, .section-footnote h2 {
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
@@ -431,10 +437,11 @@ section {
   color: #151515;
 }
 
-.section-title p {
+.section-title p, .section-footnote p {
   margin-bottom: 0;
   color: #aeaeae;
 }
+
 
 /*--------------------------------------------------------------
 # About Us
@@ -881,7 +888,7 @@ section {
   padding-bottom: 20px;
 }
 
-.faq .faq-list a {
+.faq .faq-list a.collapsed {
   display: block;
   position: relative;
   font-size: 18px;
