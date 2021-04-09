@@ -594,7 +594,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 60px 0;
-  background: url("../stock-assets/images/background/large/calm-gi-dark-background.jpg") no-repeat center center;
+  background: url("../images/backgrounds/testimonials-bg.jpg") no-repeat center center;
   background-size: cover;
   position: relative;
 }
